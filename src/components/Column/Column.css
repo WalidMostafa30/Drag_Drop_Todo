@@ -1,0 +1,53 @@
+.Column {
+  box-shadow: var(--main-shadow);
+  width: 400px;
+  flex-grow: 1;
+  padding: 5px;
+  border-radius: 10px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+
+  .Column__title {
+    text-align: center;
+    padding: 5px 0 10px;
+    color: white;
+  }
+
+  .Column__todos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    min-height: 100px;
+  }
+
+  .Column__msg {
+    display: flex;
+    margin: auto;
+    color: black;
+    font-size: 20px;
+
+    span {
+      margin-left: 10px;
+      animation: dropHere 1s infinite;
+    }
+  }
+}
+
+@keyframes dropHere {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

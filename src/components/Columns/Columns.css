@@ -1,0 +1,15 @@
+.Columns {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+
+  .Columns__msg {
+    background-color: var(--main-black);
+    color: white;
+    border-radius: 5px;
+    box-shadow: var(--main-shadow);
+    margin: 30px auto;
+    padding: 10px 20px;
+  }
+}

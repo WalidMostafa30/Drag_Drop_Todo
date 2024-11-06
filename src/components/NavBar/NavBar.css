@@ -1,0 +1,10 @@
+.NavBar {
+  background-color: var(--main-black);
+  color: white;
+  box-shadow: var(--main-shadow);
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  font-size: 26px;
+  font-weight: bold;
+}

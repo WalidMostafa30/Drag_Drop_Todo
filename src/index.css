@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg: #f5f5f5;
+  --main-black: #333333;
+  --main-red: #c01616;
+  --main-col1: #5286a6;
+  --main-col2: #b09543;
+  --main-col3: #669035;
+  --main-col1-light: #8dbddb;
+  --main-col2-light: #d6c086;
+  --main-col3-light: #99b479;
+  --main-shadow: -2px 3px 4px 2px #000000ba;
+}
+
+body {
+  background-color: var(--main-bg);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
