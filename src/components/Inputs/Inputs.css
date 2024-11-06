@@ -4,9 +4,13 @@
   box-shadow: var(--main-shadow);
   display: flex;
   gap: 10px;
-  width: 100%;
+  width: 60%;
   padding: 10px;
   margin-bottom: 20px;
+
+  @media (max-width:768px) {
+    width: 100%;
+  }
   
   .form__input {
     border-radius: 5px;
