@@ -6,9 +6,10 @@
   gap: 10px;
   width: 60%;
   padding: 10px;
+  margin: auto;
   margin-bottom: 20px;
 
-  @media (max-width:768px) {
+  @media (max-width:991px) {
     width: 100%;
   }
   
