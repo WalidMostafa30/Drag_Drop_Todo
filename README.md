@@ -37,4 +37,4 @@ This is an interactive **Drag and Drop Todo List App** built with **React.js**, 
 https://drag-drop-todo-2001.netlify.app/
 
 ## Screenshot 📸  
-<img width="960" alt="drag-drop-todo" src="https://github.com/user-attachments/assets/e93f409b-985e-4a56-8411-3f9b057d780e">
+![drag-drop-todo](https://github.com/user-attachments/assets/25b34d46-1dc4-45a1-a3cb-fab523d336d3)
